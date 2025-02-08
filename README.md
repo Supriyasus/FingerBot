@@ -1,49 +1,60 @@
-# FingerBot
-This project utilizes computer vision to detect the number of fingers shown to the camera and executes different system commands based on the count. It uses OpenCV, Mediapipe, and CVZone for hand tracking and gesture recognition.
+# FingerBot Gesture Control
 
-## Features
+FingerBot is a web application that detects hand gestures using your webcam and triggers specific system actions based on the number of fingers shown.
 
-Detects the number of fingers displayed in front of the camera.
+Features
 
-Executes different system commands based on the detected finger count:
+Real-time hand gesture detection
 
-1 Finger: Opens Outlook Calendar.
+System actions triggered by specific gestures:
 
-2 Fingers: Launches Microsoft Edge.
+5 Fingers: Opens Notepad
 
-3 Fingers: Opens Command Prompt.
+4 Fingers: Opens Camera
 
-4 Fingers: Opens Camera.
+3 Fingers: Opens Command Prompt
 
-5 Fingers: Opens Notepad.
+2 Fingers: Opens Microsoft Edge
 
-No Hands Detected: Displays a message.
+1 Finger: Opens Calendar
 
-## Technologies Used
+## Deployment
 
-Python
-
-OpenCV (cv2)
-
-Mediapipe (mp)
-
-CVZone (cvzone)
-
-OS Module (os)
-
-## Installation
-
-To run the project, install the required dependencies:
-
-    pip install opencv-python cvzone mediapipe
+The project is deployed and accessible via [your deployed link].
 
 ## Usage
 
-Run the script using:
+Open the application in your browser.
 
-    python main.py
+Click on "Start Camera".
 
-Ensure your webcam is connected and place your hand in front of the camera to trigger commands.
+Show a gesture with your fingers.
 
+Click "Detect Gesture" to trigger the corresponding action.
 
+## Technologies Used
 
+Python (Flask)
+
+OpenCV
+
+cvzone (HandTrackingModule)
+
+HTML, CSS (Tailwind), JavaScript
+
+## Setup (For Local Development)
+
+Clone the repository: 
+
+    git clone <repository-url>
+    cd Finger_Bot
+        
+Install dependencies:
+
+    pip install -r requirements.txt
+
+Run the Flask app:
+
+    python app.py
+
+Open http://localhost:5000 in your browser.
