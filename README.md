@@ -2,7 +2,7 @@
 
 FingerBot is a web application that detects hand gestures using your webcam and triggers specific system actions based on the number of fingers shown.
 
-Features
+## Features
 
 Real-time hand gesture detection
 
