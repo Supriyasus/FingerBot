@@ -20,7 +20,9 @@ System actions triggered by specific gestures:
 
 ## Deployment
 
-The project is deployed and accessible via [your deployed link].
+The project is deployed on Render and accessible via [FingerBot on Render](https://fingerbot.onrender.com).
+
+> Note: The deployed version will detect gestures, but system applications will not open unless the app is run locally due to server security restrictions.
 
 ## Usage
 
@@ -58,3 +60,5 @@ Run the Flask app:
     python app.py
 
 Open http://localhost:5000 in your browser.
+ 
+> Tip: Running locally allows the system commands (like opening apps) to work correctly.
