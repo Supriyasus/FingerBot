@@ -1,0 +1,6 @@
+opencv-python
+flask
+cvzone
+gunicorn
+mediapipe
+cvzone
